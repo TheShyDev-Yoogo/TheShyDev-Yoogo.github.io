@@ -1,0 +1,78 @@
+body {
+	width:100%;
+	margin:auto;
+	background-color: black;
+	background-image: url(image/fate.jpg);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	font-family: "Sofia-regular";
+}
+@font-face {
+    font-family: "Sofia-regular";
+    src: url('fonts/Sofia-Regular.otf');
+}
+header
+{
+	top:0;
+	z-index: 1;
+	position:fixed;
+	width: 100%;
+	background: #221f2a;
+	color:white;
+	font-size:50px;
+	opacity: 0.8;
+	margin:0 auto;
+}
+ul{
+    display: table;
+    width: 50%;
+    margin: 0px auto;
+    padding: 0%;
+}
+ul li{
+    display: table-cell;
+}
+
+a{
+	text-decoration: none;
+}
+.nav1 {
+	float:left;
+	
+}
+.nav2 {
+	float:right;
+	
+}
+
+	
+main{
+	align-self: center;
+	margin:auto;
+	margin-top: 5%;
+	width:960px;
+	font-size: 30px;
+	color: white;
+}
+footer
+{text-align: center;
+	position: absolute;
+	color: white;
+	bottom: 0; 
+	left: 0; 
+	right: 0;
+}
+.logo{
+    width: 500px;
+    height: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+}
+a
+{
+text-decoration: none;
+color: inherit;
+}

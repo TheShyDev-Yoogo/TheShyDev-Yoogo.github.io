@@ -1,0 +1,120 @@
+body {
+	width:100%;
+	margin:auto;
+	background-color: black;
+	background-image: url(image/fate.jpg);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	font-family: "Sofia-regular";
+}
+@font-face {
+    font-family: "Sofia-regular";
+    src: url('fonts/Sofia-Regular.otf');
+}
+header
+{
+	top:0;
+	z-index: 1;
+	position:fixed;
+	width: 100%;
+	background: #221f2a;
+	color:white;
+	font-size:50px;
+	opacity: 0.8;
+	margin:0 auto;
+}
+ul{
+    display: table;
+    width: 50%;
+    margin: 0px auto;
+    padding: 0%;
+}
+ul li{
+    display: table-cell;
+}
+
+a{
+	text-decoration: none;
+}
+.nav1 {
+	float:left;
+}
+.nav2 {
+	float:right;
+}
+	
+main {
+	align-self: center;
+	margin:auto;
+	margin-top: 7%;
+	width:960px;
+	font-size: 30px;
+	color: white;
+}
+footer {
+	position:fixed;
+	text-align: center;
+	color: white;
+	bottom: 0; 
+	left: 0; 
+	right: 0;
+}
+.logo{
+    width: 500px;
+    height: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    pointer-events: none
+}
+a
+{
+text-decoration: none;
+color: inherit;
+}
+
+
+
+.lightbox {
+	/** lightbox par défaut à cacher */
+	display: none;
+
+	/** Position et style */
+	position: fixed;
+	z-index: 3;
+	width: 100%;
+	height: 100%;
+	vertical-align: 50%;
+	text-align: center;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+}
+
+.lightbox img {
+	/** taille de la lightbox */
+	max-width: 90%;
+	max-height: 80%;
+	margin-top: 100px;
+}
+
+.lightbox:target {
+	/** retire les outlines */
+	outline: none;
+
+	/** afficher la lightbox **/
+	display: block;
+}
+.thumbnail {
+	width:300px ;
+	height:300px;
+	border-radius: 1em;
+	border-width: 5px;
+	border-style: solid;
+	transition: 0.5s ease;
+}
+.thumbnail:hover {
+	transform: scale(1.1);
+}

@@ -1,0 +1,51 @@
+@font-face {
+    font-family: "TOONISH";
+    src: url('fonts/TOONISH.ttf');
+}
+footer
+{text-align: center;
+color: white;
+position: fixed;
+bottom: 0; left: 0; right: 0;
+}
+
+p
+{text-align: center;
+  z-index:2;
+  font-size: 40px;
+}
+
+h1 {
+	letter-spacing: 10px;
+z-index:2;
+}
+video{
+  min-width: 100%; min-height: 100%;
+  width: auto; height: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+    z-index: -2;
+}
+img.grille{
+    top:0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -1;
+    opacity: 0.5;
+    background-repeat: repeat;
+    position: fixed;
+    pointer-events: none;
+  }
+  img.entrer:hover{
+    transform: scale(1.1);
+    opacity: 0.9;
+    filter: grayscale(0) blur(0);
+  }
+   img.entrer{
+    transition: all 0.5s ease;
+    filter: grayscale(1) blur(1px);
+   }

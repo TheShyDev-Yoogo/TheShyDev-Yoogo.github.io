@@ -1,0 +1,131 @@
+body {
+	width:100%;
+	margin:auto;
+	background-color: black;
+	background-image: url(image/fate.jpg);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	font-family: "Sofia-regular";
+}
+@font-face {
+    font-family: "Sofia-regular";
+    src: url('fonts/Sofia-Regular.otf');
+}
+header
+{
+	top:0;
+	z-index: 1;
+	position:fixed;
+	width: 100%;
+	background: #221f2a;
+	color:white;
+	font-size:50px;
+	opacity: 0.8;
+	margin:0 auto;
+}
+ul{
+    display: table;
+    width: 50%;
+    margin: 0px auto;
+    padding: 0%;
+}
+ul li{
+    display: table-cell;
+}
+
+a{
+	text-decoration: none;
+}
+.nav1 {
+	float:left;
+}
+.nav2 {
+	float:right;
+}
+	
+main{
+	align-self: center;
+	margin:auto;
+	margin-top: 7%;
+	width:960px;
+	font-size: 30px;
+	color: white;
+}
+footer
+{text-align: center;
+	position: fixed;
+	color: white;
+	bottom: 0; 
+	left: 0; 
+	right: 0;
+}
+.logo{
+    width: 500px;
+    height: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    pointer-events: none
+}
+a
+{
+text-decoration: none;
+color: inherit;
+}
+form {
+  /* Pour le centrer dans la page */
+  margin: 0 auto;
+  width: 300px;
+
+  /* Pour voir les limites du formulaire */
+  padding: 1em;
+  border: 3px solid #CCC;
+  border-radius: 1em;
+}
+
+label {
+  /* Afin de s'assurer que toutes les étiquettes aient la même dimension et soient alignées correctement */
+  display: inline-block;
+  width: 50%;
+  text-align: middle;
+}
+
+input, textarea {
+
+  /* Pour donner la même dimension à tous les champs textuels */
+  width: 300px;
+
+
+  /* Pour harmoniser l'apparence des bordures des champs textuels */
+  border: 2px solid #999;
+}
+
+input:focus, textarea:focus {
+  /* Afin de réhausser les éléments actifs */
+  border-color: #000;
+}
+
+textarea {
+  /* Pour aligner correctement les champs multilignes et leurs étiquettes */
+  vertical-align: top;
+
+  /* Pour donner assez d'espace pour entrer du texte */
+  height: 5em;
+
+  /* Pour permettre aux utilisateurs de redimensionner un champ textuel horizontalement
+     Cela ne marche pas avec tous les navigateurs  */
+  resize: vertical;
+}
+
+.button {
+  /* Pour positionner les boutons de la même manière que les champs textuels */
+  padding-left: 25%; /* même dimension que les étiquettes */
+}
+
+button {
+  /* Cette marge représente approximativement le même espace
+     que celui entre les étiquettes et les champs textuels */
+  margin-left: ;
+}
