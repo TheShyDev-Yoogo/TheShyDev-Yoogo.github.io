@@ -1,0 +1,33 @@
+@font-face {
+    font-family: "TOONISH";
+    src: url('fonts/TOONISH.ttf');
+}
+footer
+{text-align: center;
+color: white;
+position: fixed;
+bottom: 0; left: 0; right: 0;
+}
+
+p
+{text-align: center;
+  z-index:2;
+  font-size: 40px;
+}
+
+body {
+	width:100%;
+	margin:auto;
+	background-color: black;
+	background-image: url(image/fate.jpg);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	font-family: "Sofia-regular";
+}
+
+video{
+  min-width: 40%; min-height: 40%;
+	vertical-align: middle
+}
